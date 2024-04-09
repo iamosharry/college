@@ -1,0 +1,141 @@
+/* .about{
+  margin: 100px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  flex-wrap: wrap;
+
+}
+
+.about-left{
+  flex-basis: 40%;
+  position: relative;
+}
+
+.about-right{
+  flex-basis: 56%;
+  font-size: 13px;
+  
+}
+
+.about h3{
+  font-weight: 600;
+  font-size: 14px;
+  color: #212EA0;
+}
+.about h2{
+  font-weight: 600;
+  font-size: 30px;
+  color: #000F38;
+  max-width: 400px;
+}
+
+.about p{
+  color: #676767;
+  font-weight: 600;
+}
+
+
+.about img{
+  width: 100%;
+  border-radius: 10px;
+
+}
+
+.about-left .about-img2{
+  width: 60px;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  top: 50%;
+  left: 50%;
+
+}
+ */
+
+
+
+
+ .about {
+  margin: 100px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+}
+
+.about-left {
+  flex-basis: 40%;
+  position: relative;
+  /* box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1); */
+}
+
+.about-right {
+  flex-basis: 56%;
+  font-size: 13px;
+}
+
+.about h3 {
+  font-weight: 600;
+  font-size: 14px;
+  color: #212EA0;
+}
+
+.about h2 {
+  font-weight: 600;
+  font-size: 30px;
+  color: #000F38;
+  max-width: 400px;
+}
+
+.about p {
+  color: #676767;
+  font-weight: 600;
+}
+
+.about img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.about-left .about-img2 {
+  width: 60px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
+
+/* Media query for smaller screen sizes */
+@media (max-width: 1200px) {
+  .about {
+    flex-wrap: wrap; /* Apply flex-wrap only on smaller screen sizes */
+  }
+  
+  .about-left,
+  .about-right {
+    flex-basis: 100%; /* Take full width on smaller screen sizes */
+  }
+
+  .about-left{
+    order: 2;
+  }
+
+  .about-right{
+    margin-top: 20px;
+    padding-bottom: 30px;
+    
+  }
+}
+
+.target{
+  transform: translateY(50px);
+  opacity: 0;
+  transition: all 0.7s linear;
+}
+
+.target.active{
+  transform: translateY(0px);
+  opacity: 1;
+  transition: all 0.7s linear;
+}

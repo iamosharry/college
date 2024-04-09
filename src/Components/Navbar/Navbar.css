@@ -1,0 +1,162 @@
+nav{
+  background-color: transparent;
+  color: white;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  
+}
+
+.navimg-container{
+  width: 200px;
+}
+
+.navimg-container img{
+  width: 100%;
+}
+
+nav ul li{
+  list-style: none;
+  display: inline-block;
+  margin: 5px 20px;
+  cursor: pointer;
+  
+  
+
+}
+
+
+nav ul li a{
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  
+}
+
+.dark-nav{
+  background: #212EA0;
+  transition: 0.5s;
+}
+
+/* TOggle Menu */
+
+.menu-toggle {
+  display: none; /* Hide by default */
+  /* border: 1px solid red; */
+    width: 30px;
+    height: 30px;
+    position: relative;
+    cursor: pointer;
+    z-index: 100;
+  
+  
+}
+
+@media (max-width: 1200px){
+  ul li .btn{
+    display: none;
+  }
+  
+
+}
+
+
+@media (max-width: 1012px) {
+  .menu-toggle {
+      display: flex; /* Show for smaller screens */
+
+  }
+
+  .menu-toggle span {
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    background-color: white;
+    transition: transform 0.3s ease;
+}
+.menu-toggle .top {
+  top: 0;
+}
+
+.menu-toggle .middle {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.menu-toggle .bottom {
+  bottom: 0;
+}
+
+
+.top.closed {
+  transform: translateY(400%) rotate(45deg);
+  /* background-color: #212EA0; */
+  background-color: white;
+}
+
+.middle.closed {
+  transform: scaleX(0);
+  background-color: rgba(0,15,152,0.3);
+}
+
+.bottom.closed {
+  transform: translateY(-250%) rotate(-45deg);
+  /* background-color: #212EA0; */
+  background-color: white;
+}
+
+
+
+  
+
+
+  
+  nav ul {
+      position: fixed;
+      top: 0;
+      right: -200px;
+      bottom: 0;
+      
+      background: #212EA0;
+      z-index: -1;
+      width: 200px;
+      padding-top: 70px;
+      transition: 0.5s; 
+  }
+
+  nav ul li{
+    display: block;
+    margin: 25px 40px;
+  }
+
+  nav ul.show {
+      display: flex; /* Show menu items when the menu is toggled */
+      flex-direction: column;
+      align-items: center;
+      position: absolute;
+      width: 100%;
+      height: 100vh;
+      background-color: white;
+  }
+
+  
+  
+  .mobile-nav{
+    right: 0px;
+  }
+ 
+
+  
+
+  
+
+  
+
+  
+}
