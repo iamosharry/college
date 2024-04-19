@@ -6,13 +6,13 @@ const Campus = () => {
     <>
       <div className='campusphoto'>
         <div className='img-content'>
-          <img src="src/assets/gallery-1.png" alt="" />
+          <img src="/assets/gallery-1.png" alt="" />
         </div>
         <div className='img-content'>
-          <img src="src/assets/gallery-2.png" alt="" />
+          <img src="/assets/gallery-2.png" alt="" />
         </div>
         <div className='img-content'>
-          <img src="src/assets/gallery-3.png" alt="" />
+          <img src="/assets/gallery-3.png" alt="" />
         </div>
       </div>
       <div className='campusbtn'>

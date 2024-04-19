@@ -24,14 +24,14 @@ const Testimonials = () => {
 
   return (
     <div className='testimonials'>
-      <img src="src/assets/back-icon.png" className='back-btn' alt="" onClick={slideBackward} />
-      <img src="src/assets/next-icon.png" className='next-btn' alt="" onClick={slideFackward} />
+      <img src="/assets/back-icon.png" className='back-btn' alt="" onClick={slideBackward} />
+      <img src="/assets/next-icon.png" className='next-btn' alt="" onClick={slideFackward} />
       <div className="slider">
         <ul ref={slider}>
           <li>
               <div className="slide">
                 <div className="user-info">
-                  <img src="src/assets/user-1.png" alt="" />
+                  <img src="/assets/user-1.png" alt="" />
                   <div>
                     <h3>William Jackson</h3>
                     <span>Edusity, USA</span>
@@ -43,7 +43,7 @@ const Testimonials = () => {
           <li>
               <div className="slide">
                 <div className="user-info">
-                  <img src="src/assets/user-2.png" alt="" />
+                  <img src="/assets/user-2.png" alt="" />
                   <div>
                     <h3>William Jackson</h3>
                     <span>Edusity, USA</span>
@@ -55,7 +55,7 @@ const Testimonials = () => {
           <li>
               <div className="slide">
                 <div className="user-info">
-                  <img src="src/assets/user-3.png" alt="" />
+                  <img src="/assets/user-3.png" alt="" />
                   <div>
                     <h3>William Jackson</h3>
                     <span>Edusity, USA</span>
@@ -67,7 +67,7 @@ const Testimonials = () => {
           <li>
               <div className="slide">
                 <div className="user-info">
-                  <img src="src/assets/user-4.png" alt="" />
+                  <img src="/assets/user-4.png" alt="" />
                   <div>
                     <h3>William Jackson</h3>
                     <span>Edusity, USA</span>

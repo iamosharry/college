@@ -13,8 +13,8 @@ const About = () => {
   return (
     <div className='about'>
       <div className="about-left">
-        <img className='about-img' src="src/assets/about.png" alt="" />
-        <img className='about-img2' src="src/assets/play-icon.png" alt="" />
+        <img className='about-img' src="/assets/about.png" alt="" />
+        <img className='about-img2' src="/assets/play-icon.png" alt="" />
       </div>
       <div className="about-right">
         <h3 className={`target ${jump ? 'active' : ''}`}>ABOUT UNIVERSITY</h3>

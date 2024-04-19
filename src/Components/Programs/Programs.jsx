@@ -13,23 +13,23 @@ const Programs = () => {
   return (
     <div className='programs'>
       <div className={`program  ${slideX ? 'active' : ''}`}>
-        <img src="src/assets/program-1.png" alt="" />
+        <img src="/assets/program-1.png" alt="" />
         <div className="caption">
-          <img src="src/assets/program-icon-1.png" alt="" />
+          <img src="/assets/program-icon-1.png" alt="" />
           <p>Graduation Degree</p>
         </div>
       </div>
       <div className={`program  ${slideX ? 'active' : ''}`}>
-        <img src="src/assets/program-2.png" alt="" />
+        <img src="/assets/program-2.png" alt="" />
         <div className="caption">
-          <img src="src/assets/program-icon-2.png" alt="" />
+          <img src="/assets/program-icon-2.png" alt="" />
           <p>Master's Degree</p>
         </div>
       </div>
       <div className={`program  ${slideX ? 'active' : ''}`}>
-        <img src="src/assets/program-3.png" alt="" />
+        <img src="/assets/program-3.png" alt="" />
         <div className="caption">
-          <img src="src/assets/program-icon-3.png" alt="" />
+          <img src="/assets/program-icon-3.png" alt="" />
           <p>Graduation Degree</p>
         </div>
       </div>

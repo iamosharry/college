@@ -35,9 +35,9 @@ const Contact = () => {
         <h3>Send us a messgae <img src="src/assets/msg-icon.png" alt="" /></h3>
         <p>Feel free to reach out throught contact form or find our contact information belwow. Your feddback, questions, and suggestions are important to us as we strive to provide execeptional service to our university community.</p>
         <ul>
-          <li> <img src="src/assets/mail-icon.png" alt="" />Iamosahrry@gmail.com </li>
-          <li> <img src="src/assets/phone-icon.png" alt="" />+2348161264599 </li>
-          <li> <img src="src/assets/location-icon.png" alt="" />77 Massachusetts Ave, Cambrifge <br /> MA 02139, United States </li>
+          <li> <img src="/assets/mail-icon.png" alt="" />Iamosahrry@gmail.com </li>
+          <li> <img src="/assets/phone-icon.png" alt="" />+2348161264599 </li>
+          <li> <img src="/assets/location-icon.png" alt="" />77 Massachusetts Ave, Cambrifge <br /> MA 02139, United States </li>
       </ul>
       </div>
       
@@ -52,7 +52,7 @@ const Contact = () => {
           <label>Write your messgaes here</label>
           <textarea name="message" rows="6" placeholder='Enter your message' required></textarea>
 
-          <button type='submit'>Submit now <img  src="src/assets/white-arrow.png" alt="" /></button>
+          <button type='submit'>Submit now <img  src="/assets/white-arrow.png" alt="" /></button>
         </form>
         <span>{result}</span>
 
